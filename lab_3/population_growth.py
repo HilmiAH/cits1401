@@ -12,7 +12,7 @@ def population_growth():
     r = math.log((p*growth_factor)/p)/t
 
     # prints P(future) where t = hour
-    for hour in range(1, time_elapsed + 1):
+    for hour in range(1, total_t + 1):
         print("Hour {}: {}".format(hour, math.floor(p*math.exp(r*hour))))
 
 population_growth()
