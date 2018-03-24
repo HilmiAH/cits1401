@@ -1,4 +1,3 @@
-
 # Solution to Workshop 4 by Hilmi Abdul Hanif
 # finds the day of the week on any particular date using the disparate variation equation
 def day():
